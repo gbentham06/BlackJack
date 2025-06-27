@@ -19,7 +19,7 @@ public class Card {
     public String toString() {
         return rank + " of " + suit;
     }
-    public int getNumericalValue(boolean aceHigh) {
+    public int getRankNum(boolean aceHigh) {
         try {
             // Try to parse ranks 2-10 directly
             return Integer.parseInt(rank);
