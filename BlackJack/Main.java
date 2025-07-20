@@ -62,6 +62,8 @@ public class Main {
 
             if (dealsum < 17){
                 dealhand.add(cards.pop());
+            } else {
+                dealstand = true;
             }
         }
 
